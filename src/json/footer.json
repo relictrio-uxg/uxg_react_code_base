@@ -1,0 +1,43 @@
+{
+   "footer": [
+     {
+        "head": "Relictrio",
+        "list": [{
+                "label": "Recent Items"
+            },{
+                "label": "Favourites"
+            },{
+                "label": "My folders"
+            },{
+                "label": "Recommended reports"
+            }
+        ]
+     },
+     {
+        "head": "Other links",
+        "list": [{
+                "label": "Help"
+            },{
+                "label": "Upload a report"
+            },{
+                "label": "List item"
+            },{
+                "label": "List item"
+            }
+        ]
+     },
+     {
+        "head": "More links",
+        "list": [{
+                "label": "List item"
+            },{
+                "label": "List item a report"
+            },{
+                "label": "List item"
+            },{
+                "label": "List item"
+            }
+        ]
+     }
+   ]
+}
