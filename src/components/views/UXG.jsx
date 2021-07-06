@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 import { Main } from '../molecules';
-import { Header, Footer, Home } from '../organisms';
+import { Header, Footer, Home, CostSavings } from '../organisms';
 
 import { connect } from 'react-redux';
 
@@ -25,6 +25,7 @@ export const UXG = (props) => {
         </>
       )}
       <Home />
+      <CostSavings />
       <Footer />
     </PageWrapper>
   );
