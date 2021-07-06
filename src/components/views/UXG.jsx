@@ -24,7 +24,6 @@ export const UXG = (props) => {
           <Header />
         </>
       )}
-      {/* <Main /> */}
       <Home />
       <Footer />
     </PageWrapper>

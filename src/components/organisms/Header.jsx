@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Logo, RightHeader, NavBar } from '../molecules';
-
 import { colors } from '../../theme';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const HeaderWrapper = styled.div`
   color: ${colors.primary.black75};
   background: #eff5fc;
-  padding: 20px 25px;
+  padding: 26px 40px;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
+  height: 80px;
 `;
 
 export const Header = (props) => {
@@ -19,7 +19,6 @@ export const Header = (props) => {
     <HeaderWrapper>
       <Logo />
       <NavBar />
-      {/* <RightHeader /> */}
     </HeaderWrapper>
   );
 };

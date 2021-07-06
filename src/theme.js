@@ -72,7 +72,6 @@ export const colors = {
     yellowp2: '#FFB41E',
     yellowp3: '#FFDC78',
     yellowp4: '#C05C27',
-
   },
 
   accent: {
