@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { connect } from 'react-redux';
-import { Button } from './../atoms/Button.jsx';
-import { Text } from './../atoms';
+import { device } from '../../theme';
 
 const connectedProps = (state) => ({
   user: state,
@@ -13,7 +12,10 @@ const connectionActions = {};
 var connector = connect(connectedProps, connectionActions);
 
 export const LeftCostSavingsWrapper = styled.div`
-  width: 50%;
+  width: 60%;
+  @media ${device.mobile} {
+    width: 100%;
+  }
 `;
 export const LeftCostSavingsHeading = styled.h4`
   font-size: 14px;
@@ -70,6 +72,8 @@ export const LeftCostSavingsPeople = styled.select`
 export const LeftCostSavingsOption = styled.option``;
 
 export const LeftCostSavingsButton = styled.button`
+  display: inline-block;
+
   color: #3c50e0;
   padding: 16px 10px;
   border: solid 1px #ffff;

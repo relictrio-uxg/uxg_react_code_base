@@ -5,8 +5,9 @@ import { Image } from '../atoms';
 import uxGurusLogo from '../../assets/uxgurus/logo_uxGurus.png';
 import { Link } from 'react-router-dom';
 
-export const LogoHeadingWrapper = styled.h1`
-  width: 172px;
+export const LogoHeadingWrapper = styled.div`
+  width: 100%;
+  max-width: 172px;
   height: 40px;
   /* @media ${device.tabletM} {
     width: 172px;
@@ -14,7 +15,7 @@ export const LogoHeadingWrapper = styled.h1`
 `;
 
 export const LinkWrapper = styled(Link)`
-  float: left;
+  /* float: left; */
   width: 100%;
   height: 100%;
 `;

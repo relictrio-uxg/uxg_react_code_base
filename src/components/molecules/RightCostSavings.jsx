@@ -12,8 +12,7 @@ const connectionActions = {};
 
 var connector = connect(connectedProps, connectionActions);
 
-export const RightCostSavingsCover = styled.div`
-  width: 30%;
+export const RightCostSavingsWrapper = styled.div`
   box-shadow: 0px 4px 24px rgba(149, 166, 229, 0.16);
   background: #ffffff;
   border-radius: 12px;
@@ -24,14 +23,13 @@ export const RightCostSavingsCover = styled.div`
   align-items: center;
 
   @media ${device.mobile} {
-    width: 50%;
+    /* width: 100%; */
     margin-top: 2rem;
     margin-left: 0rem;
   }
-  @media ${device.laptop} {
-    width: 40%;
+  @media ${device.tablet} {
+    /* width: 40%; */
     margin-left: 4rem;
-    margin-top: 0rem;
   }
 `;
 export const RightCostSavingsHeading = styled.h6`
@@ -66,10 +64,13 @@ export const RightCostSavingsCost = styled.p`
 `;
 
 export const RightCostSavingsCostSpan = styled.span`
-  margin-left: 2.5rem;
   font-weight: bold;
+
   @media ${device.mobileM} {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  @media ${device.laptop} {
+    margin-left: 2.5rem;
   }
 `;
 
@@ -89,7 +90,6 @@ export const RightCostSavingsButton = styled.button`
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.142857px;
-  min-width: 175px;
   cursor: pointer;
 
   &:hover {
@@ -103,7 +103,7 @@ export const RightCostSavingsFooter = styled.h6`
 
 export const RightCostSavings = (props) => {
   return (
-    <RightCostSavingsCover>
+    <RightCostSavingsWrapper>
       <RightCostSavingsHeading>Estimated Annual Savings</RightCostSavingsHeading>
       <RightCostSavingsPrice>
         <Text color="#3c50e0" text="$" margin="5rem"></Text>
@@ -123,7 +123,7 @@ export const RightCostSavings = (props) => {
       <RightCostSavingsExact>Want to know your exact savings?</RightCostSavingsExact>
       <RightCostSavingsButton>GET IN TOUCH</RightCostSavingsButton>
       <RightCostSavingsFooter>Terms &amp; Conditions?</RightCostSavingsFooter>
-    </RightCostSavingsCover>
+    </RightCostSavingsWrapper>
   );
 };
 

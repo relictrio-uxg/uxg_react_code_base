@@ -11,6 +11,7 @@ const Img = styled.img`
   width: ${(props) => props.width};
   max-width: ${(props) => props.maxWidth};
   max-height: ${(props) => props.maxHeight};
+  min-width: ${(props) => props.minWidth};
 
   ${(props) =>
     props.cover &&
@@ -30,6 +31,7 @@ export const Image = ({
   width,
   maxWidth,
   maxHeight,
+  minWidth,
 }) => {
   return (
     <PictureWrapper>
@@ -43,6 +45,7 @@ export const Image = ({
         width={width}
         maxWidth={maxWidth}
         maxHeight={maxHeight}
+        minWidth={minWidth}
       />
     </PictureWrapper>
   );
@@ -56,5 +59,6 @@ Image.defaultProps = {
   width: '100%',
   maxWidth: '',
   maxHeight: '',
+  minWidth: '',
   id: '',
 };

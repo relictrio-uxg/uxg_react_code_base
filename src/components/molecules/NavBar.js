@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { Button } from './../atoms/Button.jsx';
 import { Text } from './../atoms/Text';
 import { Link } from 'react-router-dom';
-
+import { device } from '../../theme';
 const connectedProps = (state) => ({});
 
 const connectionActions = {};
@@ -12,13 +12,18 @@ const connectionActions = {};
 var connector = connect(connectedProps, connectionActions);
 
 export const NavbarWrapper = styled.div`
-  display: flex;
-  align-items: center;
+  @media ${device.mobile} {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const NavItems = styled.div`
-  display: flex;
-  justify-content: space-between;
+  @media ${device.mobile} {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
 `;
 
 export const NavItemsList = styled(Link)`

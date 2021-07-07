@@ -17,7 +17,7 @@ export const CostSavingsInsideWrapper = styled.div`
   margin: 0 auto;
   padding: 40px 40px;
   overflow-x: hidden;
-  @media ${device.mobileM} {
+  @media ${device.mobile} {
     flex-direction: column;
     align-items: center;
     justify-content: center;

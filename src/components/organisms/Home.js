@@ -17,9 +17,10 @@ const HomeWrapper = styled.div`
   display: flex;
   flex-direction: column;
   /* flex: 1; */
-  min-height: 50vh;
+  /* min-height: 50vh; */
   padding: 26px 40px;
   background: #eff5fc;
+  width: 100%;
 
   @media ${device.laptop} {
     flex-direction: row;
@@ -34,10 +35,19 @@ const HomeDetails = styled.div`
   @media ${device.mobile} {
     margin-bottom: 2rem;
   }
+  @media ${device.laptop} {
+    width: 50%;
+  }
 `;
 
 const HomeImage = styled.div`
   /* max-width: 80%; */
+  @media ${device.laptop} {
+    width: 40%;
+  }
+  @media (max-width: 480px) {
+    width: 40%;
+  }
 `;
 
 const HomeHeading = styled.h2``;
@@ -78,7 +88,7 @@ export const Home = () => {
         </HomeButton>
       </HomeDetails>
       <HomeImage>
-        <Image desktopsrcfile={PeopleImage} height="520px" width="680px" />
+        <Image desktopsrcfile={PeopleImage} height="520px" maxWidth="680px" minWidth="320px" />
       </HomeImage>
     </HomeWrapper>
   );
