@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { connect } from 'react-redux';
 import { LeftCostSavings } from '../molecules';
 import { RightCostSavings } from '../molecules';
 import { device } from '../../theme';

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { Logo, RightHeader, NavBar } from '../molecules';
+import { Logo, NavBar } from '../molecules';
 import { colors } from '../../theme';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
