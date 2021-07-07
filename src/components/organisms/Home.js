@@ -63,21 +63,11 @@ export const Home = () => {
     <HomeWrapper>
       <HomeDetails>
         <HomeHeading>
-          <Text
-            size="text2"
-            line-height="text2"
-            bold="true"
-            font-weight="800"
-            color="#00005c"
-            text="Your Personalised Offshore Partner"
-          />
+          <Text size="text2" color="#00005c" bold="500" text="Your Personalised Offshore Partner" />
         </HomeHeading>
         <HomePara>
           <Text
             size="text3"
-            line-height="text2"
-            bold="true"
-            font-weight="800"
             color="#536083"
             text=" If you are worried about your development costs skyrocketing and find it difficult to
           manage it, then we are here to help you."
