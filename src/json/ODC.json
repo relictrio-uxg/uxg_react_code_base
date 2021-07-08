@@ -1,0 +1,40 @@
+{
+  "information": [
+    {
+      "title": "Control on operations & management",
+      "description": "You manage your ODC as if it were your local IT division. You have your development schedules and deliverables which your ODC team adheres to.",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/operations__icon.png?time=1622425898",
+      "color": "red"
+    },
+    {
+      "title": "Time zone advantage",
+      "description": "An ODC on the other side of the globe can facilitate a 24-hour workday. It will allow some overlapping and also some work hours outside your local time.",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/timezone__icon.png?time=1622425898",
+      "color": "yellow"
+    },
+    {
+      "title": "Long-run Engagement",
+      "description": "In such a cost-conscious market and feeble global economy, forming an ODC has proved to be an effective way of introducing more agility into the outsourcing relationship for many organizations",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/longrun__icon.png?time=1622425898",
+      "color": "yellow"
+    },
+    {
+      "title": "Excellent quality of work",
+      "description": "Quality is priority. Our ODC have long-term relationships with most of our clients. We have always taken good care of their best interests by continuously fine-tuning through customer feedback.",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/quality__icon-1.png?time=1622425898",
+      "color": "purple"
+    },
+    {
+      "title": "Dedicated development team",
+      "description": "Once a team of software engineers is assigned, doesn't change its structure unless there is a request to do it. This stability of the team ensures higher productivity and helps to maintain minimum learning curve",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/team__icon.png?time=1622425898",
+      "color": "green"
+    },
+    {
+      "title": "Security & confidentiality",
+      "description": "Security policy is designed according to your requirements and regulations. You have every guarantee that only your team members have access to the work place, and network security is built. To manage your remote team you are provided with a number of reliable communication services.",
+      "icon": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/security__icon.png?time=1622425898",
+      "color": "orange"
+    }
+  ]
+}

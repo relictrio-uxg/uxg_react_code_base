@@ -16,25 +16,26 @@ const Img = styled.img`
       object-fit: cover;
       object-position: ${props.position || 'center'};
       height: 100%;
+      left : ${props.left} || '0';
     `}
 `;
 
 export const Image = ({ id, mobilesrcfile, tabletsrcfile, desktopsrcfile, height, width }) => {
   return (
     <PictureWrapper>
-        <source media="(min-width: 960px)" srcSet={desktopsrcfile} />
-        <source media="(min-width: 640px)" srcSet={tabletsrcfile || desktopsrcfile} />
-        <source media="(min-width: 320px)" srcSet={mobilesrcfile || desktopsrcfile} />
-        <Img id={id} src={desktopsrcfile} height={height} width={width} />
+      <source media="(min-width: 960px)" srcSet={desktopsrcfile} />
+      <source media="(min-width: 640px)" srcSet={tabletsrcfile || desktopsrcfile} />
+      <source media="(min-width: 320px)" srcSet={mobilesrcfile || desktopsrcfile} />
+      <Img id={id} src={desktopsrcfile} height={height} width={width} />
     </PictureWrapper>
   );
 };
 
 Image.defaultProps = {
-  mobilesrcfile: "",
-  tabletsrcfile: "",
-  desktopsrcfile: "",
+  mobilesrcfile: '',
+  tabletsrcfile: '',
+  desktopsrcfile: '',
   height: '100%',
   width: '100%',
-  id: ""
+  id: '',
 };

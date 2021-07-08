@@ -33,6 +33,9 @@ export const colors = {
   transparent: 'transparent',
   fontcolor: '#536083',
 
+  whiteColor: '#ffffff',
+  boxShadow1: '0px 4px 24px rgba(149, 166, 229, 0.16)',
+
   primary: {
     navy25: '#C3BFD6',
     navy50: '#8780AE',
@@ -72,7 +75,6 @@ export const colors = {
     yellowp2: '#FFB41E',
     yellowp3: '#FFDC78',
     yellowp4: '#C05C27',
-
   },
 
   accent: {
