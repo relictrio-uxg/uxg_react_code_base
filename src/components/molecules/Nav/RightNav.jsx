@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { Button } from './../atoms/Button.jsx';
+import { Button } from './../../atoms/Button';
 const Ul = styled.ul`
   list-style: none;
   display: flex;

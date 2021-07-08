@@ -27,8 +27,8 @@ export const RightCostSavingsWrapper = styled.div`
     margin-top: 2rem;
     margin-left: 0rem;
   }
-  @media ${device.tablet} {
-    /* width: 40%; */
+  @media ${device.laptop} {
+    width: 50%;
     margin-left: 4rem;
   }
 `;

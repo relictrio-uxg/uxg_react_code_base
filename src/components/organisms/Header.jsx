@@ -4,7 +4,7 @@ import { Logo, NavBar } from '../molecules';
 import { colors } from '../../theme';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { device } from '../../theme';
-import Navbar from './../Nav/Navbar';
+import Navbar from './../molecules/Nav/Navbar';
 
 const HeaderWrapper = styled.div`
   color: ${colors.primary.black75};
