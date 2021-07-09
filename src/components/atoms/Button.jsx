@@ -8,7 +8,7 @@ export const ButtonWrapper = styled.button`
   color: ${(props) => props.color};
   border: none;
   border-radius: ${(props) => props.br};
-  padding: 15px;
+  padding: ${(props) => props.pd};
   text-transform: uppercase;
   font-size: ${textSize.body2.desktop};
   display: flex;
@@ -30,9 +30,10 @@ export const Button = ({
   mobilesrcfile,
   tabletsrcfile,
   desktopsrcfile,
+  pd,
 }) => {
   return (
-    <ButtonWrapper color={color} bg={bg} br={br} onClick={action}>
+    <ButtonWrapper color={color} bg={bg} br={br} onClick={action} pd={pd}>
       {text}
       {image && (
         <Image

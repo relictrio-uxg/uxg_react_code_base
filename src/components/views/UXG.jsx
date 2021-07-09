@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { Header, Footer, Home, CostSavings, KeyTechnologies } from '../organisms';
+import { Header, Home, CostSavings, KeyTechnologies, BluePage } from '../organisms';
 
 import { connect } from 'react-redux';
 
@@ -25,6 +25,7 @@ export const UXG = (props) => {
       <Home />
       <CostSavings />
       <KeyTechnologies />
+      <BluePage />
     </PageWrapper>
   );
 };
