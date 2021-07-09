@@ -1,0 +1,14 @@
+.swiper-button-prev {
+  position: absolute;
+  top: 450px;
+  left: 80%;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 450px;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+}

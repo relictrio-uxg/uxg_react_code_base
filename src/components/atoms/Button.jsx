@@ -52,6 +52,7 @@ export const Button = ({
 Button.defaultProps = {
   color: colors.white,
   bg: colors.primary.orange100,
+  pd: '15px 30px',
   text: 'noText',
   mobilesrcfile: '',
   tabletsrcfile: '',

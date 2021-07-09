@@ -56,6 +56,11 @@ const HomePara = styled.p`
   margin: 2rem 0;
 `;
 
+const HomeImg = styled.div`
+  max-width: '680px';
+  min-width: '320px';
+`;
+
 const HomeButton = styled.div``;
 
 export const Home = () => {
@@ -78,7 +83,9 @@ export const Home = () => {
         </HomeButton>
       </HomeDetails>
       <HomeImage>
-        <Image desktopsrcfile={PeopleImage} height="520px" maxWidth="680px" minWidth="320px" />
+        <HomeImg>
+          <Image desktopsrcfile={PeopleImage} width="100%" />
+        </HomeImg>
       </HomeImage>
     </HomeWrapper>
   );
