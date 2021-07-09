@@ -12,7 +12,7 @@ const connectionActions = {};
 
 var connector = connect(connectedProps, connectionActions);
 
-export const RightCostSavingsWrapper = styled.div`
+const RightCostSavingsWrapper = styled.div`
   box-shadow: 0px 4px 24px rgba(149, 166, 229, 0.16);
   background: #ffffff;
   border-radius: 12px;
@@ -32,18 +32,18 @@ export const RightCostSavingsWrapper = styled.div`
     margin-left: 4rem;
   }
 `;
-export const RightCostSavingsHeading = styled.h6`
+const RightCostSavingsHeading = styled.h6`
   font-size: 16px;
   line-height: 16px;
   color: #000;
   font-weight: 700;
 `;
-export const RightCostSavingsPrice = styled.p`
+const RightCostSavingsPrice = styled.p`
   display: flex;
   margin: 1.2rem 0;
   font-weight: 800;
 `;
-export const RightCostSavingsPara = styled.p`
+const RightCostSavingsPara = styled.p`
   font-size: 15px;
   line-height: 15px;
   @media ${device.mobileM} {
@@ -51,7 +51,7 @@ export const RightCostSavingsPara = styled.p`
     margin: 1.2rem 0;
   }
 `;
-export const RightCostSavingsCost = styled.p`
+const RightCostSavingsCost = styled.p`
   margin-top: 1.5rem;
   font-size: 15px;
   line-height: 15px;
@@ -63,7 +63,7 @@ export const RightCostSavingsCost = styled.p`
   }
 `;
 
-export const RightCostSavingsCostSpan = styled.span`
+const RightCostSavingsCostSpan = styled.span`
   font-weight: bold;
 
   @media ${device.mobileM} {
@@ -74,13 +74,13 @@ export const RightCostSavingsCostSpan = styled.span`
   }
 `;
 
-export const RightCostSavingsExact = styled.p`
+const RightCostSavingsExact = styled.p`
   margin: 1.5rem;
   font-size: 14px;
   line-height: 14px;
   margin: 2.5rem 0;
 `;
-export const RightCostSavingsButton = styled.button`
+const RightCostSavingsButton = styled.button`
   color: #3c50e0;
   padding: 16px 10px;
   border: solid 1px rgba(83, 96, 131, 0.1);
@@ -97,7 +97,7 @@ export const RightCostSavingsButton = styled.button`
   }
 `;
 
-export const RightCostSavingsFooter = styled.h6`
+const RightCostSavingsFooter = styled.h6`
   margin: 1.5rem 0;
 `;
 

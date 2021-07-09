@@ -7,3 +7,4 @@ export { default as LeftCostSavings } from './LeftCostSavings';
 export { default as RightCostSavings } from './RightCostSavings';
 export { default as KeyTechDetails } from './KeyTechDetails';
 export { default as KeyTechImage } from './KeyTechImage';
+export { default as LeftBlogPage } from './LeftBlogPage';

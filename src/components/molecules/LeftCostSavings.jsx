@@ -11,43 +11,43 @@ const connectionActions = {};
 
 var connector = connect(connectedProps, connectionActions);
 
-export const LeftCostSavingsWrapper = styled.div`
+const LeftCostSavingsWrapper = styled.div`
   width: 60%;
   @media ${device.mobile} {
     width: 100%;
   }
 `;
-export const LeftCostSavingsHeading = styled.h4`
+const LeftCostSavingsHeading = styled.h4`
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 2px;
   color: #ffbcbd;
 `;
-export const LeftCostSavingsSubHeading = styled.h5`
+const LeftCostSavingsSubHeading = styled.h5`
   margin: 25px 0 15px;
   font-size: 32px;
   line-height: 44px;
   color: #ffffff;
 `;
-export const LeftCostSavingsDesc = styled.p`
+const LeftCostSavingsDesc = styled.p`
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px;
   color: #ebf3ff;
 `;
 
-export const LeftCostSavingsCalclistcont = styled.ul`
+const LeftCostSavingsCalclistcont = styled.ul`
   display: flex;
   justify-content: space-around;
 `;
-export const LeftCostSavingsCalclist = styled.li`
+const LeftCostSavingsCalclist = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 2rem;
   width: 40%;
 `;
-export const LeftCostSavingsCalclabel = styled.label`
+const LeftCostSavingsCalclabel = styled.label`
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
@@ -56,7 +56,7 @@ export const LeftCostSavingsCalclabel = styled.label`
   float: left;
   margin-bottom: 20px;
 `;
-export const LeftCostSavingsPeople = styled.select`
+const LeftCostSavingsPeople = styled.select`
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -69,9 +69,9 @@ export const LeftCostSavingsPeople = styled.select`
   padding-bottom: 7px;
   width: 100%;
 `;
-export const LeftCostSavingsOption = styled.option``;
+const LeftCostSavingsOption = styled.option``;
 
-export const LeftCostSavingsButton = styled.button`
+const LeftCostSavingsButton = styled.button`
   display: inline-block;
 
   color: #3c50e0;

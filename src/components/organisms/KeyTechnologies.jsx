@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 import { device } from '../../theme';
 import { KeyTechDetails, KeyTechImage } from '../molecules';
 
-export const KeyTechnologiesWrapper = styled.section`
+const KeyTechnologiesWrapper = styled.section`
   margin: 2rem auto;
   width: 80%;
   display: flex;

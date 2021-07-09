@@ -1,12 +1,11 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { LeftCostSavings } from '../molecules';
-import { RightCostSavings } from '../molecules';
+import { LeftCostSavings, RightCostSavings } from '../molecules';
 import { device } from '../../theme';
 
-export const CostSavingsWrapper = styled.section``;
+const CostSavingsWrapper = styled.section``;
 
-export const CostSavingsInsideWrapper = styled.div`
+const CostSavingsInsideWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   flex: 1;
