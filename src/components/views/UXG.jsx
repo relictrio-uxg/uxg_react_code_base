@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-
-import { Main } from '../molecules';
-import { Header, Footer, ODC, HowWeWork, WhyUs, SetupPlans } from '../organisms';
+import { Header, Home, CostSavings, KeyTechnologies, BluePage, LatestBlog,ODC, HowWeWork, WhyUs, SetupPlans } from '../organisms';
 
 import { connect } from 'react-redux';
 
@@ -19,12 +17,20 @@ const PageWrapper = styled.div``;
 export const UXG = (props) => {
   return (
     <PageWrapper>
-      {!props.preview && <></>}
-      <Main />
+      {!props.preview && (
+        <>
+          <Header />
+        </>
+      )}
+      <Home />
       <ODC />
       <HowWeWork />
       <WhyUs />
       <SetupPlans />
+      <CostSavings />
+      <KeyTechnologies />
+      <BluePage />
+      <LatestBlog />
     </PageWrapper>
   );
 };
