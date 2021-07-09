@@ -19,17 +19,12 @@ const PageWrapper = styled.div``;
 export const UXG = (props) => {
   return (
     <PageWrapper>
-      {!props.preview && (
-        <>
-          <Header />
-        </>
-      )}
+      {!props.preview && <></>}
       <Main />
       <ODC />
       <HowWeWork />
       <WhyUs />
       <SetupPlans />
-      <Footer />
     </PageWrapper>
   );
 };
