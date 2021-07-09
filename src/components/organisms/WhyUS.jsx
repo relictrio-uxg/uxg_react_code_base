@@ -5,6 +5,7 @@ import 'swiper/swiper.min.css';
 import 'swiper/components/navigation/navigation.min.css';
 import SwiperCore, { Autoplay } from 'swiper/core';
 import why_us from '../../json/why_us.json';
+import HeroTextDiv from '../molecules/HeroTextDiv';
 
 import { Image } from '../atoms/Image';
 
@@ -30,26 +31,6 @@ const SectionHeader = styled.div`
   }
   @media (max-width: 768px) {
     width: 90%;
-  }
-`;
-
-const HeaderHelperText = styled.h6`
-  font-size: 1.35rem;
-  line-height: 1.35rem;
-  letter-spacing: 2.5px;
-  color: #3c50e0;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin-bottom: 2rem;
-`;
-
-const HeaderPrimaryText = styled.h1`
-  font-size: 3rem;
-  line-height: 4rem;
-  color: #00005c;
-  font-weight: 700;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
   }
 `;
 
@@ -93,7 +74,7 @@ const IconContainer = styled.div`
   height: 5rem;
 `;
 
-const WhyUs = (props) => {
+export const WhyUs = (props) => {
   const [slidesPerView, setSlidesPerView] = useState(4);
 
   let rearrangeSlides = () => {
@@ -120,10 +101,12 @@ const WhyUs = (props) => {
     <SectionWrapper>
       <SectionInnerContainer>
         <SectionHeader>
-          <HeaderHelperText>Why US?</HeaderHelperText>
-          <HeaderPrimaryText>
-            We transform businesses successfully through our services
-          </HeaderPrimaryText>
+          <HeroTextDiv
+            headText="Why US?"
+            heading="We transform businesses successfully through our services"
+            subHeading=""
+            buttonTitle=""
+          />
         </SectionHeader>
       </SectionInnerContainer>
       <CarouselContainer>
