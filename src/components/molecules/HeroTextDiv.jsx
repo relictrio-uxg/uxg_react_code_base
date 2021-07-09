@@ -9,9 +9,8 @@ const SectionContentHead = styled.div`
 const SectionContentHeadText = styled.h3`
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2.5rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: #3c50e0;
 `;

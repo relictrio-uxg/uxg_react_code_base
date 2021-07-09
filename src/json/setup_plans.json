@@ -1,0 +1,34 @@
+{
+  "information": [
+    {
+      "pre-title": "Major Team",
+      "title": "Fixed Cost Model",
+      "features": [
+        "Infrastructure in place",
+        "Timeframe and cost are fixed",
+        "Well defined scope & Specifications",
+        "Post time clients will be chargeable"
+      ]
+    },
+    {
+      "pre-title": "Small Team",
+      "title": "Time and Material Model",
+      "features": [
+        "Infrastructure in place",
+        "Timeframe and cost are fixed",
+        "Flexibility in Resource allocation",
+        "Projects Iterations"
+      ]
+    },
+    {
+      "pre-title": "Individual/Small Team",
+      "title": "Resources Hiring Model",
+      "features": [
+        "Infrastructure in place",
+        "Suitable for Multiple sized projects",
+        "Simple pricing system",
+        "Monthly Charged"
+      ]
+    }
+  ]
+}

@@ -14,9 +14,16 @@ const SectionContent = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const ListContainer = styled.div`
   width: 50%;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-top: 2rem;
+  }
 `;
 
 const MainHeroSection = styled.div`
@@ -52,7 +59,6 @@ const IndexTab = styled.p`
 `;
 
 export const HowWeWork = () => {
-  console.log(uxg_work, 'uxg_work');
   const { list } = uxg_work;
   return (
     <SectionWrapper>
