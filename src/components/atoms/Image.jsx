@@ -33,6 +33,7 @@ export const Image = ({
   maxWidth,
   maxHeight,
   minWidth,
+  style,
 }) => {
   return (
     <PictureWrapper>
@@ -47,6 +48,7 @@ export const Image = ({
         maxWidth={maxWidth}
         maxHeight={maxHeight}
         minWidth={minWidth}
+        style={style}
       />
     </PictureWrapper>
   );

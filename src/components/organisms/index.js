@@ -9,3 +9,4 @@ export { CostSavings } from './CostSavings.jsx';
 export { KeyTechnologies } from './KeyTechnologies.jsx';
 export { BluePage } from './BluePage';
 export { LatestBlog } from './LatestBlog.jsx';
+export { Testimonials } from './Testimonials.jsx';
