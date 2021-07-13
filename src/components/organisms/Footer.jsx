@@ -1,15 +1,18 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { ListFooter } from './../molecules';
-import listFooter from '../../json/footer.json';
-import { device } from '../../theme';
+import FooterHead from './../molecules/Footer/FooterHead';
+import { device } from './../../theme.js';
+import Copyright from './../molecules/Footer/Copyright';
 
-const FooterWrapper = styled.footer``;
+const FooterWrapper = styled.footer`
+  background: #f0f5fc;
+  padding: 110px 0 80px;
+`;
 
 const ListFooterWrapper = styled.div`
-  background: #eff5f5;
+  background: #f0f5fc;
   display: flex;
-  padding: 16px;
+
   flex-wrap: wrap;
 
   @media ${device.tablet} {
@@ -20,11 +23,8 @@ const ListFooterWrapper = styled.div`
 export const Footer = (props) => {
   return (
     <FooterWrapper>
-      <ListFooterWrapper>
-        {listFooter.footer.map((item, index) => (
-          <ListFooter key={index} {...item} index={index} />
-        ))}
-      </ListFooterWrapper>
+      <FooterHead />
+      <Copyright />
     </FooterWrapper>
   );
 };
