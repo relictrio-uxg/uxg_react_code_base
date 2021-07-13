@@ -12,6 +12,7 @@ import {
   WhyUs,
   SetupPlans,
   Testimonials,
+  GetInTouch,
 } from '../organisms';
 
 import { connect } from 'react-redux';
@@ -44,6 +45,7 @@ export const UXG = (props) => {
       <BluePage />
       <LatestBlog />
       <Testimonials />
+      <GetInTouch />
     </PageWrapper>
   );
 };
