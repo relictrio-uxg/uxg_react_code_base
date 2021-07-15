@@ -6,6 +6,7 @@ import { respCss } from '../../helper';
 
 export const TextItem = styled.span`
   display: block;
+  margin: 0.5rem;
   position: relative;
   font-size: ${(props) => (props.size ? textSize[props.size]['mobile'] : 'inherit')};
   line-height: ${(props) => (props.size ? lineHeight[props.size]['mobile'] : 'inherit')};

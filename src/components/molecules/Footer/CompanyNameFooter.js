@@ -18,10 +18,11 @@ const ImageWrapper = styled.div`
 `;
 
 const CompanyAddress = styled.p`
-  font-size: 15px;
+  font-size: 14px;
   line-height: 23px;
   width: 100%;
   margin: 1rem;
+  color: #536083;
 `;
 
 const CompanyNameFooter = () => {

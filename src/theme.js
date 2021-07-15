@@ -134,7 +134,11 @@ export const textSize = {
     mobile: '1.8rem',
   },
 
-  text4: {},
+  text4: {
+    laptop: '1.2rem',
+    tablet: '1rem',
+    mobile: '0.8rem',
+  },
   text5: {},
   text6: {},
 
@@ -163,7 +167,12 @@ export const lineHeight = {
   },
 
   text3: {
-    laptop: '3.2rem',
+    laptop: '3rem',
+    tablet: '',
+    mobile: '',
+  },
+  text4: {
+    laptop: '2.2rem',
     tablet: '',
     mobile: '',
   },
