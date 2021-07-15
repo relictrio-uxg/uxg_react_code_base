@@ -7,9 +7,9 @@ const LatestBlogWrapper = styled.section`
   padding: 26px 40px;
   width: 100%;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   @media (max-width: 600px) {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 `;
 
